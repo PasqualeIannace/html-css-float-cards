@@ -1,3 +1,4 @@
+/* Corpo HTML */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -9,35 +10,52 @@ header {
 }
 
 body {
+    font-family: 'Fredoka', sans-serif;
     margin: 0 auto;
     width: 80%;
 }
 
+/* TAG */
 h1 {
     color: #E53170;
+    margin: 35px 0px;
+    font-size: 50px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-.container {
-    background-color: rgb(174, 174, 174);
-}
-
-.card {
-    margin: 13px 23px;
-    background-color: rgb(255, 200, 99);
-    width: calc(90% / 3);
-    float: left;
+h3{
+    margin-top: 15px;
 }
 
 img {
     width: 110px;
+    margin-right: 15px;
+}
+
+a {
+    color: #68C7EB;
+    text-decoration: none;
+}
+
+/* Classi */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    margin: 25px 20px;
+    background-color: black;
+    width: calc(90% / 3);
+    float: left;
+    color: white;
+    box-shadow: 0px 0px 10px 5px gray;
 }
 
 .float-left {
     float: left;
+}
+
+.marginB {
+    margin-bottom: 10px;
 }
