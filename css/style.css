@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    color: #E53170;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.container {
+    background-color: rgb(174, 174, 174);
+}
+
+.card {
+    margin: 13px 23px;
+    background-color: rgb(255, 200, 99);
+    width: calc(90% / 3);
+    float: left;
+}
+
+img {
+    width: 110px;
+}
+
+.float-left {
+    float: left;
+}
